@@ -1,0 +1,26 @@
+.container{
+    position: relative;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    height: 35px;
+    padding:5px;
+}
+.navigation span{
+    font-size: 20px;
+    margin: 0px 90px;
+    cursor: pointer;
+    color:white
+    
+}
+.navigation span:last-child{
+    color: red;
+    font-weight: bold;
+}
+.navigation span:last-child:hover{
+    background-color: red;
+    
+}

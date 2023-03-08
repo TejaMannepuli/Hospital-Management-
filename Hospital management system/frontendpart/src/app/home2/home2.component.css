@@ -1,0 +1,104 @@
+.container{
+    margin:30px;
+}
+.patient-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search input{
+    padding: 6px;
+    width: 400px;
+}
+.patient-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin: 20px 10px;
+}
+.patient-body button{
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    width: 80px;
+}
+.book{
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    right: 0;
+}
+.ap{
+    align-content: center;
+margin-bottom: 0px;
+    margin:50px ;
+    width: 300px;
+    color:red;
+
+}
+.data{
+width: 200px;
+height: 30px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+.book-container{
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:200px;
+    position: absolute;
+    top: 5%;
+    right:5%;
+}
+.book-container:hover{
+    background-color: yellowgreen;
+}
+.book-cancel>button{
+    background-color: red;
+    width: 60px;
+    margin-left:30px;
+    font-weight: bold;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+.book-cancel>button:hover{
+    background-color: blue;
+}
+.cancel-button{
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+.close{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin:20px;
+    margin-top: 5px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+}
+.work{
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+}

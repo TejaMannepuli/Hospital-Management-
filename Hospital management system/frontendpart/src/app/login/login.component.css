@@ -1,0 +1,81 @@
+.login-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color:blue;
+    background-image: url(../../assets/home.png);
+}
+.login-item{
+    height:600px;
+    width: 600px;
+    margin: 100px;
+    background-color: white;
+    border-radius: 20px;
+}
+.login-item:hover{
+    background-color: rgb(60, 255, 0);
+}
+.cancel-button{
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.close{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin:20px;
+    font-weight: bold;
+    color:white;
+}
+.login-input h1{
+    font-size: 30px;
+    color:red;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+.login-input input{
+    padding: 10px;
+    width: 250px;
+    margin: 20px;
+    font-weight: bold;
+}
+.login-input button{
+    border:none;
+    width: 250px;
+    padding-top: 10px;
+    color:white;
+    font-size: 20px;
+    margin-left:30px;
+    font-weight: bold;
+    background-color:blue;
+
+}
+.tom p a{
+    text-decoration: none;
+}
+.tom p a:hover{
+    color:lightgreen
+}
+.tom{
+  margin-left: 70px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.login-input{
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+.login-input button:hover{
+    background-color: green;
+}
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,77 @@
+<div class="container">
+    <div class="navigation">
+        <span>Patients</span>
+        <span><a routerLink="/appointment" routerLinkAction="action">Docters</a></span>
+        <span>Welcome teja </span>
+        <span>Logout</span>
+    </div>
+    <div class="patientdetails">
+        <span>Name</span>
+        <span>Location</span>
+        <span>Room number</span>
+        <span>Admission number</span>
+        <span>Id number</span>
+        <span>status</span>
+    </div>
+    <div class="button">
+        <button (click)="showBook()">Add Patients</button>
+    </div>
+    <div class="patientdetails-body">
+        <span>Rahul</span>
+        <span>Narasaraopeta</span>
+        <span>R36</span>
+        <span>1100</span>
+        <span>3456789</span>
+        <span>Good</span>
+    </div>
+    <div class="patientdetails-body">
+        <span>Rahul</span>
+        <span>Narasaraopeta</span>
+        <span>R36</span>
+        <span>1100</span>
+        <span>3456789</span>
+        <span>Good</span>
+    </div>
+    <div class="patientdetails-body">
+        <span>Rahul</span>
+        <span>Narasaraopeta</span>
+        <span>R36</span>
+        <span>1100</span>
+        <span>3456789</span>
+        <span>Good</span>
+    </div>
+    <div class="patientdetails-body">
+        <span>Rahul</span>
+        <span>Narasaraopeta</span>
+        <span>R36</span>
+        <span>1100</span>
+        <span>3456789</span>
+        <span>Good</span>
+    </div>
+    <div class="patientdetails-body">
+        <span>Rahul</span>
+        <span>Narasaraopeta</span>
+        <span>R36</span>
+        <span>1100</span>
+        <span>3456789</span>
+        <span>Good</span>
+    </div>
+    <div class="book" *ngIf="close">
+        <div class="book-container">
+            <div class="cancel-button">
+                <button class="close" (click)="showBook()">Close</button>
+            </div>
+            <h3 class="ap">Add Patients</h3>
+            <input type="text" class="work" placeholder="Enter fullname">
+            <input type="email" class="work" placeholder="Enter email">
+            <input type="text" class="work" placeholder="Room area">
+            <input type="text" class="work" placeholder="Room number">
+            <input type="text" class="work" placeholder="Adminission number">
+            <input type="text" class="work" placeholder="Id number">
+            <input type="date" class="work">
+            <div class="book-cancel">
+                <button>Submit</button>
+        
+            </div>
+        </div>
+</div>

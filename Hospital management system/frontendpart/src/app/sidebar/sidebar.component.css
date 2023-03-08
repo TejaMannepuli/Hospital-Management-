@@ -1,0 +1,49 @@
+.profile{
+    height: 90vh;
+    width: 450px;
+    background-color:white;
+    margin: 20px;
+    box-shadow: 10px 10px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile img{
+    height: 200px;
+    width: 200px;
+    object-fit:cover;
+    border-radius: 90px;
+    margin-top: 10px;
+}
+.name{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 900;
+}
+.status{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top:5px;
+}
+.profile button{
+    background-color:blue;
+    color:white;
+    border:none;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+.profile button.home a{
+    text-decoration: none;
+    color: white;
+}
+.profile button.appointment a{
+    text-decoration: none;
+    color: white;
+}
+
+.profile button:last-child{
+    background-color: red;
+    cursor: pointer;
+}

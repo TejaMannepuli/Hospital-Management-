@@ -1,0 +1,35 @@
+
+.treatment{
+background-color: #aaa;
+display: flex;
+width: 75vw;
+margin-top: 20px;
+align-items: center;
+justify-content: space-evenly;
+font-weight: 900;
+}
+.treatment p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 10px;
+
+
+}
+.treatment-item p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 10px;
+
+
+}
+.treatment-item{
+display: flex;
+width: 75vw;
+margin-top: 5px;
+align-items: center;
+justify-content: space-evenly;
+font-weight: 900;
+    
+}

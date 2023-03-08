@@ -1,0 +1,43 @@
+.container{
+    margin: 30px;
+}
+.treatment{
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    width: 72vw;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+.search{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.search input{
+    width: 300px;
+    height: 40px;
+    margin: 30px;
+   
+    top:20px;
+}
+.treatment span{
+    margin-left: 20px;
+    margin-right: 80px;
+
+}
+.treatment-item span{
+    margin-left: 30px;
+    margin-right: 70px;
+
+}
+.treatment-body{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}

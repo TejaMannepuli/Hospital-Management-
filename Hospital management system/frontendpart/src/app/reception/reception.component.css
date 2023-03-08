@@ -1,0 +1,125 @@
+.container{
+    margin:30px;
+    position: relative;
+}
+.navigation{
+    width: 100%;
+    background-color: darkorange;
+    height: 40px;
+    align-content: center;
+    justify-content: center;
+    display:flex;
+}
+.navigation span{
+    margin: 10px 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.patientdetails{
+    margin: 20px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.patientdetails span{
+    margin: 10px 90px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.patientdetails-body{
+    margin: 20px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.button{
+    display: flex;
+    align-items: end;
+    justify-content:end;
+    height: 10px;
+    color: rgb(12, 12, 58);
+    cursor: pointer;
+    
+}
+.patientdetails-body span{
+    margin: 10px 90px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.book{
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    height: 10vh;
+    width: 100vw;
+    top:0;
+    right: 0;
+}
+.ap{
+    align-content: center;
+margin-top: 0px;
+    width: 300px;
+    color:red;
+
+}
+.data{
+width: 200px;
+height: 30px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+.book-container{
+    background-color: white;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:200px;
+    position: absolute;
+    top: 5%;
+    right:5%;
+}
+.book-container:hover{
+    background-color: yellowgreen;
+}
+.book-cancel>button{
+    background-color: red;
+    width: 60px;
+    margin-left:30px;
+    font-weight: bold;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+.book-cancel>button:hover{
+    background-color: blue;
+}
+.cancel-button{
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+.close{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin:20px;
+    margin-top: 5px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+}
+.work{
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+

@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+}
+.sidebar{
+    border:1px ;
+}
+.mainbar{
+    border:1px solid red;
+}

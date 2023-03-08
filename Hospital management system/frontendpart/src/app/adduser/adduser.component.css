@@ -1,0 +1,55 @@
+.container{
+    width:75vw;
+    height: 100vh;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addusers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form label{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 18px;
+}
+.form label input{
+    width: 300px;
+    height: 40px;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.butt button{
+    width: 180px;
+    margin-left: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.butt input{
+    width: 180px;
+    margin-left: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.form select{
+    margin-bottom:30px;
+    margin-left: 20px;
+    height: 30px;
+    width: 300px;
+}
+
